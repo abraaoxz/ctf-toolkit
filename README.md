@@ -5,22 +5,19 @@
 ![Pentesting](https://img.shields.io/badge/Pentesting-Offensive%20Security-red)
 ![CTF](https://img.shields.io/badge/CTF-Hack%20The%20Box%20%7C%20TryHackMe-green)
 
-Toolkit profissional para **CTFs e laboratórios de Pentesting**, seguindo **metodologia real usada por pentesters**, focado em **Kali Linux**.
+Toolkit profissional para CTFs e laboratórios de Pentesting usando Kali Linux.
 
-> ⚠️ Uso exclusivo em ambientes autorizados (CTFs, labs, máquinas de teste).
+⚠️ Uso exclusivo em ambientes autorizados.
 
----
+## 📁 Estrutura
+CTF organizado por fases:
+Reconhecimento, Enumeração, Exploração, Pós-Exploração, PrivEsc e Flags.
 
-## 🎯 Objetivo
-Automatizar tarefas repetitivas de CTF para permitir foco total em:
-- Análise
-- Exploração
-- Privilege Escalation
-- Captura de Flags
-
-Sem dependência de frameworks pesados.
-
----
-
-## 📁 Estrutura (HTB / TryHackMe Style)
+## 🚀 Uso Rápido
+```bash
+./install.sh
+./ctf-init.sh alvo
+cd alvo
+../recon.sh IP
+../web-enum.sh http://IP
 
